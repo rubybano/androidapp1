@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/papa"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I Miss You Papa!"
+        android:textAppearance="?android:textAppearanceLarge" />
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="I love You Papa!"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/playbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Play"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:id="@+id/pausebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/playbutton"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="-62dp"
+        android:text="pause"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="From your loving daughter"
+        android:layout_alignParentRight="true"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="@android:color/darker_gray"/>
+
+
+
+</RelativeLayout>
